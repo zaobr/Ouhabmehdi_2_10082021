@@ -138,13 +138,13 @@ h1{
     border: lightgray 1px solid;
     border-radius: 32px;
     line-height: 50px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 .buttons-filtres>i{
-    font-size: 15px;
+    font-size: 16px;
     color:#0065FC;
     background: #DEEBFF;
     line-height: 50px;
@@ -154,8 +154,6 @@ h1{
     margin-left: -1px;
 }
 
-/* I INFO */
-
 #i-info{
     font-size: 12px;
     color: #0065FC;
@@ -163,3 +161,188 @@ h1{
     padding: 4px 8px 4px 8px;
     border-radius: 20px;
 }
+
+#p-info{
+    margin: 3px 0px 0px 10px ;
+    font-size: 15px;
+}
+
+/* SECTION LOGEMENTS 3x2 */
+
+.logement-left{
+    margin-top: 40px;
+    background: #F2F2F2;
+    border-radius: 30px;
+    height: 625px;
+    width: 880px;
+}
+
+.logement-left>h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0px 0px 35px;
+}
+
+.logement-left>div>div>a:visited{
+    color: black;
+}
+
+.logement-left>a:visited{
+    color: black;
+}
+.logement-left>a{
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+#div-6{
+    margin: 30px 30px 30px 30px;
+    flex-wrap: wrap;
+}
+
+#div-miniature-logement1{
+    width: 250px;
+    height: 200px;
+    background-image: url(../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-position: top;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    border: white 5px solid;
+    border-radius: 25px;
+    font-size: 15px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.034);
+}
+
+#div-miniature-logement2{
+    width: 250px;
+    height: 200px;
+    background-image: url(../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    background-position: top;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    border: white 5px solid;
+    border-radius: 25px;
+    font-size: 15px;
+    overflow: hidden;
+    margin-left: 20px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.034);
+}
+
+#div-miniature-logement3{
+    width: 250px;
+    height: 200px;
+    background-image: url(../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    background-position: top;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    border: white 5px solid;
+    border-radius: 25px;
+    font-size: 15px;
+    overflow: hidden;
+    margin-left: 20px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.034);
+}
+
+#div-miniature-logement4{
+    width: 250px;
+    height: 200px;
+    background-image: url(../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-position: bottom;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    border: white 5px solid;
+    border-radius: 25px;
+    font-size: 15px;
+    overflow: hidden;
+    margin-top: 30px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.034);
+}
+
+#div-miniature-logement5{
+    width: 250px;
+    height: 200px;
+    background-image: url(../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+    background-position: top;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    border: white 5px solid;
+    border-radius: 25px;
+    font-size: 15px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.034);
+}
+
+#div-miniature-logement6{
+    width: 250px;
+    height: 200px;
+    background-image: url(../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-position: bottom;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    border: white 5px solid;
+    border-radius: 25px;
+    font-size: 15px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.034);
+}
+
+.texte-miniature>h4{
+    font-size: 14px;
+    margin: 5px 0px 4px 10px;
+    width: 100%;
+}
+
+.texte-miniature>p{
+    font-size: 12px;
+    margin-left: 10px;
+    padding-right: 132px;
+    width: 100%;
+}
+
+.texte-miniature{
+    background-color: white;
+    align-self: flex-end;
+}
+
+.link-miniature{
+    display: flex;
+}
+
+.star1{
+    color: #0065FC;
+    font-size: 12px;
+    margin: 7px -3px 5px 10px;
+}
+
+.star2{
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3px;
+}
+
+.star3{
+    color: #d1d1d19d;
+    font-size: 12px;
+}
+
+/* SECTION LOGEMENT 1X3 */
+
+.logement-right{
+    margin-top: 40px;
+    margin-left: 40px;
+    background: #F2F2F2;
+    border-radius: 30px;
+    height: 620px;
+    width: 420px;
+}
+
+.logement-right>h2{
+    font-size: 20px;
+    margin: 30px 0px 0px 35px;
+}
+
