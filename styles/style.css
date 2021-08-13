@@ -20,7 +20,13 @@ html{
     display: flex;
 }
 
-a, ul, li{
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+ul, li{
     text-decoration: none;
     list-style: none;
 }
