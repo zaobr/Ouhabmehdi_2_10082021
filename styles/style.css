@@ -12,7 +12,7 @@
 }
 
 html{
-    margin: 45px;
+    margin: 2.8rem;
 }
 
 
@@ -43,67 +43,67 @@ ul, li{
 }
 
 #navbar{
-    margin-top: 5px;
+    margin-top: 0.3rem;
 }
 
 #navbar>a{
-    font-size: 14px;
-    margin-left: 50px;
-    margin-right: 15px;
+    font-size: 0.9rem;
+    margin-left: 3.1rem;
+    margin-right: 0.0563rem;
     color: black;
 }
 
 #navbar>a:nth-child(1){
     color: #0065FC;
-    border-top: #458efc 2px solid;
-    padding: 35px 10px 0px 10px;
+    border-top: #458efc 0.125rem solid;
+    padding: 2.1rem 0.6rem 0rem 0.6rem;
     width: 100%;
 }
 
 #navbar>a:nth-child(3){
-    margin-left: 55px;
+    margin-left: 3.4rem;
     color: #0065FC;
     font-weight: bold;
 }
 
 header{
-    margin-bottom: 35px;
+    margin-bottom: 2.1rem;
 }
 
 /* TITRE / BARRE RECHERCHE  */
 
 h1{
-    font-size: 21px;
+    font-size: 1.3rem;
     font-weight: 800;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
 }
 
 #div-searchbar{
-    margin: 20px 0px 20px 0px;
+    margin: 1.25rem 0rem 1.25rem 0rem; 
     display: inline-block;
-    border: #F2F2F2 1px solid;
-    border-radius: 22px;
+    border: #F2F2F2 0.0625rem solid;
+    border-radius: 1.25rem;
     overflow: hidden;
 }
 
 #icon-position{
-    padding: 2px 20px 2px 20px;
-    font-size: 18px;
+    padding: 0.12rem 1.25rem 0.12rem 1.25rem;
+    font-size: 1.12rem;
     background: #F2F2F2;
-    line-height: 45px;
+    line-height: 2.8rem;
 }
 
 #searchbar{
     background: white;
-    line-height: 45px;
-    font-size: 18px;
+    line-height: 2.8rem;;
+    font-size: 1.12rem;
     font-weight: bold;
-    padding: 0px 40px 0px 10px;
+    padding: 0rem 2.5rem 0rem 0.62rem;
 }
 
 #searchbar::placeholder{
     color: black;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: bold;
 }
 
@@ -119,137 +119,137 @@ h1{
     background: #0065FC;
     color:white;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 45px;
-    padding: 2px 20px 2px 20px;
+    font-size: 1.12rem;
+    line-height: 2.81rem;
+    padding: 0.12rem 1.25rem 0.12rem 1.25rem;
 }
 
 /* FILTRES */
 
 #div-filtres{
-    line-height: 30px;
-    margin-bottom: 30px;
-    margin-top: 8px;
+    line-height: 1.87rem;
+    margin-bottom: 1.87rem;
+    margin-top: 0.5rem;
 }
 
 #div-filtres>p{
-    font-size: 17px;
+    font-size: 1.06rem;
     font-weight: bolder;
-    margin: 10px 25px 0px 0px;
+    margin: 0.62rem 1.5rem 0rem 0rem;
 }
 
 .buttons-filtres{
-    margin-right: 26px;
+    margin-right: 1.62rem;
     background: white;
-    border: lightgray 1px solid;
-    border-radius: 32px;
-    line-height: 10px;
-    font-size: 17px;
+    border: lightgray 0.0625rem solid;
+    border-radius: 2rem;
+    line-height: 0.625rem;
+    font-size: 1.0625rem;
     font-weight: bold;
-    padding-right: 30px;
+    padding-right: 1.875rem;
 }
 
 .buttons-filtres:hover{
-    border: #0065fc8c 1px solid;
+    border: #0065fc8c 0.0625rem solid;
     color: #0065FC;
     background-color: #F2F2F2;
 }
 
 .buttons-filtresspec1:hover{
-    border: #0065fc8c 1px solid;
+    border: #0065fc8c 0.0625rem solid;
     color: #0065FC;
     background-color: #F2F2F2;
 }
 
 .buttons-filtresspec2:hover{
-    border: #0065fc8c 1px solid; 
+    border: #0065fc8c 0.0625rem solid; 
     color: #0065FC;
     background-color: #F2F2F2;
 }
 
 .buttons-filtres>i{
-    font-size: 16px;
+    font-size: 1rem;
     color:#0065FC;
     background: #DEEBFF;
-    line-height: 45px;
-    padding: 2px 18px 2px 18px;
-    border-radius: 26px;
-    margin-right: 10px;
-    margin-left: -1px;
+    line-height: 2.8125rem;
+    padding: 0.125rem 1.125rem 0.125rem 1.125rem;
+    border-radius: 1.625rem;
+    margin-right: 0.625rem;
+    margin-left: -0.0625rem;
 }
 
 .buttons-filtresspec1{
-    margin-right: 26px;
+    margin-right: 1.625rem;
     background: white;
-    border: lightgray 1px solid;
-    border-radius: 32px;
-    line-height: 10px;
-    font-size: 17px;
+    border: lightgray 0.0625rem solid;
+    border-radius: 2rem;
+    line-height: 0.625rem;
+    font-size: 1.0625rem;
     font-weight: bold;
-    padding-right: 30px;
+    padding-right: 1.875rem;
 }
 
 .buttons-filtresspec1>i{
-    font-size: 16px;
+    font-size: 1rem;
     color:#0065FC;
     background: #DEEBFF;
-    line-height: 45px;
-    padding: 2px 16px 2px 16px;
-    border-radius: 26px;
-    margin-right: 10px;
-    margin-left: -1px;
+    line-height: 2.8125rem;
+    padding: 0.125rem 1rem 0.125rem 1rem;
+    border-radius: 1.625rem;
+    margin-right: 0.625rem;
+    margin-left: -0.0625rem;
 }
 
 .buttons-filtresspec2{
-    margin-right: 26px;
+    margin-right: 1.625rem;
     background: white;
-    border: lightgray 1px solid;
-    border-radius: 32px;
-    line-height: 10px;
-    font-size: 17px;
+    border: lightgray 0.0625rem solid;
+    border-radius: 2rem;
+    line-height: 0.625rem;
+    font-size: 1.0625rem;
     font-weight: bold;
-    padding-right: 30px;
+    padding-right: 1.875rem;
 }
 
 .buttons-filtresspec2>i{
-    font-size: 16px;
+    font-size: 1rem;
     color:#0065FC;
     background: #DEEBFF;
-    line-height: 45px;
-    padding: 2px 20px 2px 20px;
-    border-radius: 26px;
-    margin-right: 10px;
-    margin-left: -1px;
+    line-height: 2.8125rem;
+    padding: 0.125rem 1.25rem 0.125rem 1.25rem;
+    border-radius: 1.625rem;
+    margin-right: 0.625rem;
+    margin-left: -0.0625rem;
 }
 
 #i-info{
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #0065FC;
-    border: 1px rgb(194, 192, 192) solid;
-    padding: 4px 8px 4px 8px;
-    border-radius: 20px;
-    margin-top: 2px;
+    border: 0.0625rem rgb(194, 192, 192) solid;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    border-radius: 1.25rem;
+    margin-top: 0.125rem;
 }
 
 #p-info{
-    margin: 5px 0px 0px 10px ;
-    font-size: 16px;
+    margin: 0.3125rem 0rem 0rem 0.625rem ;
+    font-size: 1rem;
 }
 
 /* SECTION LOGEMENTS 3x2 */
 
 .logement-left{
-    margin-top: 38px;
+    margin-top: 2.375rem;
     background: #F2F2F2;
-    border-radius: 30px;
-    height: 625px;
-    width: 880px;
+    border-radius: 1.875rem;
+    height: 39.0625rem;
+    width: 55rem;
 }
 
 .logement-left>h2{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
-    margin: 42px 0px 0px 35px;
+    margin: 2.625rem 0rem 0rem 2.1875rem;
 }
 
 .logement-left>div>div>a:visited{
@@ -260,185 +260,113 @@ h1{
     color: black;
 }
 .logement-left>a{
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: bold;
-    margin-left: 40px;
+    margin-left: 2.5rem;
 }
 
 #div-6{
-    margin: 25px 30px 37px 35px;
+    margin: 1.5625rem 1.875rem 2.3125rem 2.1875rem;
     flex-wrap: wrap;
 }
 
-#div-miniature-logement1{
-    width: 230px;
-    height: 190px;
-    background-image: url(../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
-    background-position: top;
-    background-size: 250px;
-    background-repeat: no-repeat;
-    border: white 5px solid;
-    border-radius: 25px;
-    font-size: 15px;
+.div-miniature-logement{
+    border: white 0.3125rem solid;
+    border-radius: 1.5625rem;
+    font-size: 0.9375rem;
     overflow: hidden;
-    box-shadow: 3px 3px 10px 0px #e4e4e4;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem 0rem #e4e4e4;
+    width: 29%;
 }
 
-#div-miniature-logement2{
-    width: 230px;
-    height: 190px;
-    background-image: url(../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
-    background-position: top;
-    background-size: 250px;
-    background-repeat: no-repeat;
-    border: white 5px solid;
-    border-radius: 25px;
-    font-size: 15px;
-    overflow: hidden;
-    margin-left: 40px;
-    box-shadow: 3px 3px 10px 0px #e4e4e4;
+.topmargdiv{
+    margin-bottom: 1.875rem;
 }
 
-#div-miniature-logement3{
-    width: 230px;
-    height: 190px;
-    background-image: url(../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
-    background-position: top;
-    background-size: 250px;
-    background-repeat: no-repeat;
-    border: white 5px solid;
-    border-radius: 25px;
-    font-size: 15px;
-    overflow: hidden;
-    margin-left: 40px;
-    box-shadow: 3px 3px 10px 0px #e4e4e4;
+.rmargdiv{
+    margin-right: 1.875rem;
 }
 
-#div-miniature-logement4{
-    width: 230px;
-    height: 190px;
-    background-image: url(../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
-    background-position: bottom;
-    background-size: 250px;
-    background-repeat: no-repeat;
-    border: white 5px solid;
-    border-radius: 25px;
-    font-size: 15px;
-    overflow: hidden;
-    margin-top: 30px;
-    box-shadow: 3px 3px 10px 0px #e4e4e4;
-}
-
-#div-miniature-logement5{
-    width: 230px;
-    height: 190px;
-    background-image: url(../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
-    background-position: top;
-    background-size: 250px;
-    background-repeat: no-repeat;
-    border: white 5px solid;
-    border-radius: 25px;
-    font-size: 15px;
-    overflow: hidden;
-    margin-top: 30px;
-    margin-left: 40px;
-    box-shadow: 3px 3px 10px 0px #e4e4e4;
-}
-
-#div-miniature-logement6{
-    width: 230px;
-    height: 190px;
-    background-image: url(../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
-    background-position: bottom;
-    background-size: 250px;
-    background-repeat: no-repeat;
-    border: white 5px solid;
-    border-radius: 25px;
-    font-size: 15px;
-    overflow: hidden;
-    margin-top: 30px;
-    margin-left: 40px;
-    box-shadow: 3px 3px 10px 0px #e4e4e4;
+.div-miniature-logement img{
+    width: 15rem;
+    height: 7.8125rem;
+    object-fit: cover;
 }
 
 .texte-miniature>h4{
-    font-size: 14px;
-    margin: 5px 0px 4px 10px;
+    font-size: 0.875rem;
+    margin: 0.3125rem 0rem 0.25rem 0.625rem;
     width: 100%;
 }
 
 .texte-miniature>p{
-    font-size: 12px;
-    margin-left: 10px;
-    padding-right: 132px;
+    font-size: 0.75rem;
+    margin-left: 0.625rem;
     width: 100%;
 }
 
 .texte-miniature{
+    margin-top: -0.25rem;
     background-color: white;
-    align-self: flex-end;
-}
-
-.link-miniature{
-    display: flex;
+    overflow: hidden;
 }
 
 .star1{
     color: #0065FC;
-    font-size: 12px;
-    margin: 7px -3px 5px 10px;
+    font-size: 0.75rem;
+    margin: 0.4375rem -0.1875rem 0.3125rem 0.625rem;
 }
 
 .star2{
     color: #0065FC;
-    font-size: 12px;
-    margin-right: -3px;
+    font-size: 0.75rem;
+    margin-right: -0.1875rem;
 }
 
 .star3{
     color: #d1d1d19d;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 /* SECTION LOGEMENT 1X3 */
 
 .div-logement-right{
     width: 80%;
-    border: white 5px solid;
-    box-shadow: 3px 3px 10px 0px #e4e4e4;
-    border-radius: 25px;
+    border: white 0.3125rem solid;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem 0rem #e4e4e4;
+    border-radius: 1.5625rem;
     display:inline-flex;
     overflow: hidden ;
-    margin: 0px 0px 35px 35px;
+    margin: 0rem 0rem 2.1875rem 2.1875rem;
 }
 
 .logement-right{
-    margin-top: 40px;
-    margin-left: 40px;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
     background: #F2F2F2;
-    border-radius: 30px;
-    height: 622px;
-    width: 420px;
+    border-radius: 1.875rem;
+    height: 38.875rem;
+    width: 26.25rem;
 }
 
 .logement-right>h2{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
-    margin: 42px 30px 25px 35px;
+    margin: 2.625rem 1.875rem 1.5625rem 2.1875rem;
 }
 
 .chart{
-    margin-left: 140px;
+    margin-left: 8.75rem;
 }
 
 .div-img-right{
-    width: 132px;
-    height: 132px;
+    width: 8.25rem;
+    height: 8.25rem;
 }
 
 .img-right{
-    width: 132px;
-    height: 132px;
+    width: 8.25rem;
+    height: 8.25rem;
     object-fit: cover;
     object-position: center;
 }
@@ -454,92 +382,92 @@ h1{
 
 .texte-miniature-right>h4{
     width: 70%;
-    font-size: 15px;
-    margin: 12px 0px 5px 15px;
+    font-size: 0.9375rem;
+    margin: 0.75rem 0rem 0.3125rem 0.9375rem;
 }
 
 .texte-miniature-right>p{
-    font-size: 13px;
-    margin-left: 15px;
-    margin-bottom: 33px;
+    font-size: 0.8125rem;
+    margin-left: 0.9375rem;
+    margin-bottom: 2.0625rem;
 }
 
 .i-move{
-    margin-left: 15px;
+    margin-left: 0.9375rem;
 }
 
 /* ACTIVITES */
 
 #title-activites{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
-    margin: 50px 0px  25px 0px;
+    margin: 3.125rem 0rem  1.5625rem 0rem;
 }
 
 .div-activites{
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
 
 #left-mini-act{
-    margin-right: 50px;
+    margin-right: 3.125rem;
 }
 
 .big-act{
-    margin-right: 50px;
+    margin-right: 3.125rem;
 }
 
 .shadow{
-    box-shadow: 3px 3px 10px 0px #e4e4e4;
-    border-radius: 25px;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem 0rem #e4e4e4;
+    border-radius: 1.5625rem;
     overflow: hidden;
 }
 
 .big-images{
-    width: 290px;
-    height: 370px;
+    width: 18.125rem;
+    height: 23.125rem;
     object-fit: cover;
     object-position: center;
 }
 
 #num1{
-    width: 300px;
-    height: 175px;
+    width: 18.75rem;
+    height: 10.9375rem;
     object-fit: cover;
     object-position: center;
 }
 
 #num2{
-    width: 300px;
-    height: 105px;
+    width: 18.75rem;
+    height: 6.5625rem;
     object-fit: cover;
     object-position: center;
 }
 
 #num3{
-    width: 300px;
-    height: 135px;
+    width: 18.75rem;
+    height: 8.4375rem;
     object-fit: cover;
     object-position: center;
 }
 
 #num4{
-    width: 300px;
-    height: 150px;
+    width: 18.75rem;
+    height: 9.375rem;
     object-fit: cover;
     object-position: center;
 }
 
 #num1-pos{
-    margin-bottom: 45px;
+    margin-bottom: 2.8125rem;
 }
 
 #num3-pos{
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .texte-activites h4{
-    font-size: 15px;
-    margin: 12px 0px 12px 15px;
+    font-size: 0.9375rem;
+    margin: 0.75rem 0rem 0.75rem 0.9375rem;
 }
 
 
@@ -551,9 +479,9 @@ footer{
     width: 100%;
     position: absolute;
     background-color: #F2F2F2;
-    margin-left: -40px;
-    padding-right: 85px;
-    margin-top: 50px;
+    margin-left: -2.5rem;
+    padding-right: 5.3125rem;
+    margin-top: 3.125rem;
 }
 
 .link-bot:visited{
@@ -562,20 +490,20 @@ footer{
 
 
 .bottom-div{
-    margin: 42px 0px 0px 35px;
+    margin: 2.625rem 0rem 0rem 2.1875rem;
 }
 
 .section-bot{
     width: 33%;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .section-bot h3{
-    font-size: 15px;
-    margin-bottom: 20px;
+    font-size: 0.9375rem;
+    margin-bottom: 1.25rem;
 }
 
 .section-bot ul li{
-    font-size: 13px;
-    margin-bottom: 10px;
+    font-size: 0.8125rem;
+    margin-bottom: 0.625rem;
 }
