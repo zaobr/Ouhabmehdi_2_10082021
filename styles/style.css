@@ -11,8 +11,8 @@
     font-family: 'Raleway', sans-serif;
 }
 
-html{
-    margin: 2.8rem;
+body{
+    margin: 0rem 2.8rem 0rem 2.8rem;
 }
 
 
@@ -33,17 +33,14 @@ ul, li{
 
 /* LOGO / BARRE DE NAVIGATION */
 
-#div-logonavbar{
-    justify-content: space-between;
-}
-
-#logo{
-    width: 91%;
-    height: 91%;
+#div-logo{
+    width: 80%;
 }
 
 #navbar{
     margin-top: 0.3rem;
+    flex-direction: row;
+    margin-bottom: 10px;
 }
 
 #navbar>a{
@@ -51,23 +48,43 @@ ul, li{
     margin-left: 3.1rem;
     margin-right: 0.0563rem;
     color: black;
+    padding-top: 1%;
+    border-top: 0.125rem solid white;
 }
 
-#navbar>a:nth-child(1){
+#navbar>a:hover{
     color: #0065FC;
     border-top: #458efc 0.125rem solid;
-    padding: 2.1rem 0.6rem 0rem 0.6rem;
     width: 100%;
 }
 
-#navbar>a:nth-child(3){
+#sub{
+    font-size: 0.85rem;
     margin-left: 3.4rem;
     color: #0065FC;
     font-weight: bold;
 }
 
 header{
-    margin-bottom: 2.1rem;
+    margin: 2.8rem 0rem 2.1rem 0rem;
+    align-items: center;
+}
+
+.nav-mobile{
+    width: 100%;
+    display: none;
+}
+
+.linkmob{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #F2F2F2;
+}
+
+.linkmob:hover{
+    color: #0065FC;
+    border-bottom: 3px solid #0065FC;
 }
 
 /* TITRE / BARRE RECHERCHE  */
@@ -87,10 +104,14 @@ h1{
 }
 
 #icon-position{
-    padding: 0.12rem 1.25rem 0.12rem 1.25rem;
+    padding: 0.2rem 1.25rem 0.3rem 1.25rem;
     font-size: 1.12rem;
     background: #F2F2F2;
     line-height: 2.8rem;
+}
+
+.fa-search{
+    display: none;
 }
 
 #searchbar{
@@ -109,7 +130,11 @@ h1{
 
 #searchbar:focus::placeholder {
     color: transparent;
-  }
+}
+
+input{
+    margin-left: 0.4rem;
+}
 
 #searchbar:focus{
     outline: none;
@@ -120,26 +145,30 @@ h1{
     color:white;
     font-weight: 500;
     font-size: 1.12rem;
-    line-height: 2.81rem;
-    padding: 0.12rem 1.25rem 0.12rem 1.25rem;
+    line-height: 2.8rem;
+    padding: 0.265rem 1.25rem 0.2rem 1.25rem;
 }
 
 /* FILTRES */
 
-#div-filtres{
+.buttondiv{
     line-height: 1.87rem;
     margin-bottom: 1.87rem;
     margin-top: 0.5rem;
 }
 
-#div-filtres>p{
+.div-filtres{
+    margin-top: 1rem;
+}
+
+.div-filtres>p{
     font-size: 1.06rem;
     font-weight: bolder;
-    margin: 0.62rem 1.5rem 0rem 0rem;
+    margin: 1.4rem 1.5rem 0rem 0rem;
 }
 
 .buttons-filtres{
-    margin-right: 1.62rem;
+    margin-right: 1.7rem;
     background: white;
     border: lightgray 0.0625rem solid;
     border-radius: 2rem;
@@ -178,8 +207,12 @@ h1{
     margin-left: -0.0625rem;
 }
 
+.specrom{
+    margin-bottom: 0.4rem;
+}
+
 .buttons-filtresspec1{
-    margin-right: 1.625rem;
+    margin-right: 1.7rem;
     background: white;
     border: lightgray 0.0625rem solid;
     border-radius: 2rem;
@@ -187,6 +220,7 @@ h1{
     font-size: 1.0625rem;
     font-weight: bold;
     padding-right: 1.875rem;
+    margin-bottom: 0.4rem;
 }
 
 .buttons-filtresspec1>i{
@@ -201,7 +235,7 @@ h1{
 }
 
 .buttons-filtresspec2{
-    margin-right: 1.625rem;
+    margin-right: 1.7rem;
     background: white;
     border: lightgray 0.0625rem solid;
     border-radius: 2rem;
@@ -209,6 +243,7 @@ h1{
     font-size: 1.0625rem;
     font-weight: bold;
     padding-right: 1.875rem;
+    margin-bottom: 0.4rem;
 }
 
 .buttons-filtresspec2>i{
@@ -243,7 +278,7 @@ h1{
     background: #F2F2F2;
     border-radius: 1.875rem;
     height: 39.0625rem;
-    width: 55rem;
+    width: 70%;
 }
 
 .logement-left>h2{
@@ -265,9 +300,10 @@ h1{
     margin-left: 2.5rem;
 }
 
-#div-6{
+.div-6{
     margin: 1.5625rem 1.875rem 2.3125rem 2.1875rem;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .div-miniature-logement{
@@ -276,7 +312,7 @@ h1{
     font-size: 0.9375rem;
     overflow: hidden;
     box-shadow: 0.1875rem 0.1875rem 0.625rem 0rem #e4e4e4;
-    width: 29%;
+    width: 28%;
 }
 
 .topmargdiv{
@@ -288,7 +324,7 @@ h1{
 }
 
 .div-miniature-logement img{
-    width: 15rem;
+    width: 100%;
     height: 7.8125rem;
     object-fit: cover;
 }
@@ -346,7 +382,7 @@ h1{
     background: #F2F2F2;
     border-radius: 1.875rem;
     height: 38.875rem;
-    width: 26.25rem;
+    width: 30%;
 }
 
 .logement-right>h2{
@@ -356,17 +392,17 @@ h1{
 }
 
 .chart{
-    margin-left: 8.75rem;
+    float: right;
 }
 
 .div-img-right{
-    width: 8.25rem;
+    width: 40%;
     height: 8.25rem;
 }
 
 .img-right{
-    width: 8.25rem;
-    height: 8.25rem;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: center;
 }
@@ -376,7 +412,7 @@ h1{
 }
 
 .texte-miniature-right{
-    width: 100%;
+    width: 60%;
     background-color: white;
 }
 
@@ -398,6 +434,11 @@ h1{
 
 /* ACTIVITES */
 
+.maj-div{
+    width: 100%;
+    /* margin-right: 1rem; */
+}
+
 #title-activites{
     font-size: 1.25rem;
     font-weight: bold;
@@ -405,15 +446,20 @@ h1{
 }
 
 .div-activites{
-    font-size: 0.9375rem;
+    justify-content: space-between;
 }
 
-#left-mini-act{
-    margin-right: 3.125rem;
+.maj-div-pos{
+    margin-right: 2rem;
+}
+
+.left-mini-act{
+    width: 50%;
 }
 
 .big-act{
-    margin-right: 3.125rem;
+    width: 50%;
+    margin-right: 2rem;
 }
 
 .shadow{
@@ -423,35 +469,35 @@ h1{
 }
 
 .big-images{
-    width: 18.125rem;
+    width: 100%;
     height: 23.125rem;
     object-fit: cover;
     object-position: center;
 }
 
 #num1{
-    width: 18.75rem;
+    width: 100%;
     height: 10.9375rem;
     object-fit: cover;
     object-position: center;
 }
 
 #num2{
-    width: 18.75rem;
+    width: 100%;
     height: 6.5625rem;
     object-fit: cover;
     object-position: center;
 }
 
 #num3{
-    width: 18.75rem;
+    width: 100%;
     height: 8.4375rem;
     object-fit: cover;
     object-position: center;
 }
 
 #num4{
-    width: 18.75rem;
+    width: 100%;
     height: 9.375rem;
     object-fit: cover;
     object-position: center;
@@ -471,8 +517,6 @@ h1{
 }
 
 
-
-
 /* FOOTER */
 
 footer{
@@ -480,8 +524,11 @@ footer{
     position: absolute;
     background-color: #F2F2F2;
     margin-left: -2.5rem;
-    padding-right: 5.3125rem;
     margin-top: 3.125rem;
+}
+
+.link-bot{
+    display: contents;
 }
 
 .link-bot:visited{
@@ -506,4 +553,394 @@ footer{
 .section-bot ul li{
     font-size: 0.8125rem;
     margin-bottom: 0.625rem;
+}
+
+/* TAB */
+
+@media screen and (max-width: 1440px){
+
+    /* RESIZE FILTRES */
+
+    .buttondiv{
+        justify-content: space-evenly;
+    }
+
+    .div-filtres>p{
+        margin-right: 0.62rem;
+    }
+
+    .buttons-filtresspec1, .buttons-filtresspec2, .buttons-filtres{
+        margin-right: 0rem;
+    }
+
+    /* 2x3 */
+
+    .logement-left{
+        width: 65%;
+        height: 100%;
+        padding-bottom: 2rem;
+        margin-right: 1rem;
+    }
+
+    .div-miniature-logement{
+        width: 40%;
+        height: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    /* 1x3 */
+
+    .logement-right{
+        width: 35%;
+        height: 52rem;
+        margin-left: 0rem;
+    }
+
+    .texte-miniature-right>p{
+        margin-left: 0.9375rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 1219px){
+
+    .logement-right{
+        width: 35%;
+        height: 52rem;
+        margin-left: 0rem;
+    }
+
+    .texte-miniature-right>p{
+        margin-left: 0.9375rem;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
+}
+
+@media screen and (max-width: 935px){
+
+    /* 1x3 */
+
+    .div-logement-right{
+        margin-left: 1.5rem;
+    }
+
+    .texte-miniature-right>p{
+        margin-left: 0.9375rem;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
+}
+
+@media screen and (max-width: 883px){
+    /* LOGEMENT */
+
+    #heber{
+        flex-wrap: wrap;
+    }
+
+    .logement-left{
+        width: 100%;
+        margin-right: 0rem;
+    }
+
+    .logement-right{
+        width: 100%;
+        height: 100%;
+    }
+
+    #title-right{
+        width: 87%;
+    }
+
+    .div-logement-right{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .special-wrap{
+        width: 80%;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 534px){
+    
+    /* SEARCHBAR */
+
+    #div-searchbar{
+        margin: 1.25rem 0rem 1.25rem 0rem; 
+        display: inline-block;
+        border: #F2F2F2 0.0625rem solid;
+        border-radius: 1.25rem;
+        overflow: hidden;
+    }
+    
+    #icon-position{
+        padding: 0.2rem 1rem 0.3rem 1rem;
+        font-size: 1.12rem;
+        background: #F2F2F2;
+        line-height: 2.8rem;
+    }
+    
+    #searchbar{
+        background: white;
+        line-height: 2.8rem;;
+        font-size: 1.12rem;
+        font-weight: bold;
+        padding: 0rem;
+    }
+    
+    #searchbar:focus{
+        outline: none;
+    }
+    
+    .fa-search{
+        background: #0065FC;
+        display: inline-block;
+        border: 1px transparent;
+        border-radius: 1rem;
+        padding: 1.07rem 1rem 1.07rem 1rem;
+    }
+
+    #searchbutton>p{
+        display: none;
+    }
+
+    #searchbutton{
+        background: white;
+        color:white;
+        font-weight: 500;
+        font-size: 1.12rem;
+        line-height: 2.8rem;
+        padding: 0rem;
+    }
+
+    /* ACTIVITES */
+    
+    .div-activites{
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0rem;
+        padding: 0rem;
+        justify-content: space-between;
+    }
+
+    .maj-div{
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .left-mini-act{
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    .big-act{
+        width: 100%;
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+    }
+    
+    .maj-div-pos{
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+    }
+    
+    .big-images{
+        height: 10.9375rem;
+    }
+    
+    #num1{
+        height: 10.9375rem;
+    }
+    
+    #num2{
+        height: 10.9375rem;
+    }
+    
+    #num3{
+        height: 10.9375rem;
+    }
+    
+    #num4{
+        height: 10.9375rem;
+    }
+    
+    #num1-pos{
+        margin-bottom: 2rem
+    }
+    
+    #num3-pos{
+        margin-bottom: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width: 503px){
+    .nav-mobile{
+        display: inline-flex;
+        margin-bottom: 1.6rem;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    body{
+        margin: 0rem auto 0rem auto;
+    }
+
+    header{
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #sub{
+        margin-right: 1rem;
+    }
+
+    #div-logo{
+        margin-left: 1rem;
+    }
+
+    h1{
+        width: 80%;
+        margin-left: 1.5rem;
+    }
+
+    #title-text{
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    #posdiv-searchbar{
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .div-filtres{
+        flex-wrap: wrap;
+        margin-top: 0rem;
+    }
+
+    .div-filtres>p{
+        margin-top: 0rem;
+        margin-bottom: 0.3rem;
+        margin-left: 1.3rem;
+    }
+
+    .buttondiv{
+        margin-left: 1rem;
+    }
+
+    .div-info{
+        margin-left: 1.1rem;
+    }
+
+    #i-info{
+        font-size: 11px;
+    }
+
+    /* LOGEMENTS */
+
+    #heber{
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    .logement-left{
+        border-radius: 0rem;
+        background: white;
+        margin-top: 0rem;
+    }
+
+    .div-miniature-logement{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .logement-right{
+        margin-top: 2rem;
+        border-radius: 0rem;
+    }
+
+    .div-logement-right{
+        width: 100%;
+    }
+
+    .special-wrap{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .div-6{
+        margin-bottom: 1rem;
+    }
+
+    .logement-left>a{
+        font-size: 1.15rem;
+        margin-left: 1.2rem;
+    }
+
+    #title-activites{
+        margin-top: 1rem;
+        margin-left: 1.2rem;
+    }
+
+    .maj-div, .maj-div-pos{
+        margin-left: 2rem;
+        margin-right: 2em;
+    }
+
+    .big-images{
+        height: 8rem;
+    }
+    
+    #num1{
+        height: 8rem;
+    }
+    
+    #num2{
+        height: 8rem;
+    }
+    
+    #num3{
+        height: 8rem;
+    }
+    
+    #num4{
+        height: 8rem;
+    }
+
+    .bottom-div{
+        display: inline-block;
+    }
+
+    .section-bot{
+        width: 100%;
+    }
+
+    .section-bot>h3{
+        margin-bottom: 1rem;
+    }
+
+    .section-bot>ul{
+        margin-bottom: 2.4rem;
+    }
+
+    footer{
+        margin-left: 0px;
+    }
 }
