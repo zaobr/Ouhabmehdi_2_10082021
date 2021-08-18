@@ -40,7 +40,7 @@ ul, li{
 #navbar{
     margin-top: 0.3rem;
     flex-direction: row;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 #navbar>a{
@@ -79,12 +79,12 @@ header{
     width: 100%;
     text-align: center;
     padding-bottom: 1rem;
-    border-bottom: 3px solid #F2F2F2;
+    border-bottom: 0.188rem solid #F2F2F2;
 }
 
 .linkmob:hover{
     color: #0065FC;
-    border-bottom: 3px solid #0065FC;
+    border-bottom: 0.188rem solid #0065FC;
 }
 
 /* TITRE / BARRE RECHERCHE  */
@@ -147,6 +147,16 @@ input{
     font-size: 1.12rem;
     line-height: 2.8rem;
     padding: 0.265rem 1.25rem 0.2rem 1.25rem;
+}
+
+#searchbutton-mag{
+    background: #0065FC;
+    color:white;
+    font-weight: 500;
+    font-size: 1.12rem;
+    line-height: 2.8rem;
+    padding: 0.265rem 1.25rem 0.2rem 1.25rem;
+    display: none;
 }
 
 /* FILTRES */
@@ -703,16 +713,17 @@ footer{
     .fa-search{
         background: #0065FC;
         display: inline-block;
-        border: 1px transparent;
+        border: 0.063rem transparent;
         border-radius: 1rem;
-        padding: 1.07rem 1rem 1.07rem 1rem;
-    }
-
-    #searchbutton>p{
-        display: none;
+        padding: 1.07rem 1rem 1.12rem 1rem;
     }
 
     #searchbutton{
+        display: none;
+    }
+
+    #searchbutton-mag{
+        display: inline-block;
         background: white;
         color:white;
         font-weight: 500;
@@ -850,7 +861,7 @@ footer{
     }
 
     #i-info{
-        font-size: 11px;
+        font-size: 0.688rem;
     }
 
     /* LOGEMENTS */
@@ -941,6 +952,6 @@ footer{
     }
 
     footer{
-        margin-left: 0px;
+        margin-left: 0rem;
     }
 }
