@@ -567,7 +567,7 @@ footer{
 
 /* TAB */
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1200px){
 
     /* RESIZE FILTRES */
 
@@ -613,21 +613,6 @@ footer{
     }
 }
 
-@media screen and (max-width: 1219px){
-
-    .logement-right{
-        width: 35%;
-        height: 52rem;
-        margin-left: 0rem;
-    }
-
-    .texte-miniature-right>p{
-        margin-left: 0.9375rem;
-        margin-top: 0.1rem;
-        margin-bottom: 0.1rem;
-    }
-}
-
 @media screen and (max-width: 935px){
 
     /* 1x3 */
@@ -646,7 +631,7 @@ footer{
 @media screen and (max-width: 883px){
     /* LOGEMENT */
 
-    #hebergement{
+    #hebergements{
         flex-wrap: wrap;
     }
 
