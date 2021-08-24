@@ -38,17 +38,21 @@ ul, li{
 }
 
 #navbar{
-    margin-top: 0.3rem;
+    margin-top: -1.3rem;
     flex-direction: row;
     margin-bottom: 0.625rem;
+    box-sizing: border-box;
 }
 
 #navbar>a{
     font-size: 1.1rem;
     margin-left: 3.1rem;
     margin-right: 0.0563rem;
+    margin-top: -0.3rem;
     color: black;
-    padding-top: 1%;
+    padding-top: 10%;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
     border-top: 0.125rem solid white;
 }
 
